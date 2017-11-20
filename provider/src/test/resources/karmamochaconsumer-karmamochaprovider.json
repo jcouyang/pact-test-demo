@@ -1,0 +1,106 @@
+{
+  "consumer": {
+    "name": "KarmaMochaConsumer"
+  },
+  "provider": {
+    "name": "KarmaMochaProvider"
+  },
+  "interactions": [
+    {
+      "description": "a request for hello",
+      "providerState": "default",
+      "request": {
+        "method": "GET",
+        "path": "/sayHello"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "body": {
+          "reply": "Hello"
+        }
+      }
+    },
+    {
+      "description": "a request friends",
+      "providerState": "There is friend who has children Mary and James",
+      "request": {
+        "method": "GET",
+        "path": "/friends",
+        "query": "age=30&children=Mary+Jane&children=James",
+        "headers": {
+          "Accept": "application/json"
+        },
+        "matchingRules": {
+          "$.query.age[0]": {
+            "match": "regex",
+            "regex": "\\d+"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "body": {
+          "friends": [
+            {
+              "name": "Sue"
+            }
+          ]
+        },
+        "matchingRules": {
+          "$.body.friends": {
+            "min": 1
+          },
+          "$.body.friends[*].*": {
+            "match": "type"
+          },
+          "$.body.friends[*].name": {
+            "match": "type"
+          }
+        }
+      }
+    },
+    {
+      "description": "a request to unfriend",
+      "providerState": "I am friends with Fred",
+      "request": {
+        "method": "PUT",
+        "path": "/unfriendMe"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "body": {
+          "reply": "Bye"
+        }
+      }
+    },
+    {
+      "description": "a request to unfriend",
+      "providerState": "I have no friends",
+      "request": {
+        "method": "PUT",
+        "path": "/unfriendMe"
+      },
+      "response": {
+        "status": 404,
+        "headers": {
+        },
+        "body": {
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}

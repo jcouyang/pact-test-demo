@@ -1,0 +1,107 @@
+{
+  "provider": {
+    "name": "provider-side"
+  },
+  "consumer": {
+    "name": "consumer-side"
+  },
+  "interactions": [
+    {
+      "provider_state": "normal",
+      "description": "description1",
+      "request": {
+        "method": "get",
+        "path": "/json",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "hello": "world"
+        }
+      }
+    },
+    {
+      "provider_state": "deferred",
+      "description": "deferred description1",
+      "request": {
+        "method": "get",
+        "path": "/deferred_json",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "hello": "world"
+        }
+      }
+    },
+    {
+      "provider_state": "with-headers",
+      "description": "description2",
+      "request": {
+        "method": "get",
+        "path": "/json",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "my-header1": "my-value1"
+        },
+        "body": {
+          "hello": "world"
+        }
+      }
+    },
+    {
+      "provider_state": "with-cookies",
+      "description": "description3",
+      "request": {
+        "method": "get",
+        "path": "/cookies",
+        "headers": {
+          "Content-Type": "application/json",
+          "Cookie": "cookie1=value1; cookie2=value2"
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "hello": "world"
+        }
+      }
+    },
+    {
+      "provider_state": "with-array-body",
+      "description": "description4",
+      "request": {
+        "method": "get",
+        "path": "/json",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "hello": [
+            "world1",
+            "world2"
+          ]
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pact-specification": {
+      "version": "2.0.0"
+    }
+  }
+}

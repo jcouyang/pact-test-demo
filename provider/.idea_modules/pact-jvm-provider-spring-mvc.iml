@@ -1,0 +1,115 @@
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="scala" name="Scala">
+      <configuration>
+        <option name="compilerLibraryLevel" value="Project"/>
+        <option name="compilerLibraryName" value="SBT: scala:2.11.8"/>
+        <option name="languageLevel" value="Scala 2.11"/>
+        <option name="fsc" value="true"/>
+        <option name="compilerOptions" value=""/>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../target/scala-2.11/classes"/>
+    <output-test url="file://$MODULE_DIR$/../target/scala-2.11/test-classes"/>
+    <exclude-output/>
+    <content url="file://$MODULE_DIR$/../">
+      <sourceFolder url="file://$MODULE_DIR$/../src/main/scala-2.11" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/../src/main/scala" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/../src/main/java" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/../src/main/resources" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/../src/test/scala-2.11" isTestSource="true"/>
+      <sourceFolder url="file://$MODULE_DIR$/../src/test/scala" isTestSource="true"/>
+      <sourceFolder url="file://$MODULE_DIR$/../src/test/java" isTestSource="true"/>
+      <sourceFolder url="file://$MODULE_DIR$/../src/test/resources" isTestSource="true"/>
+      <excludeFolder url="file://$MODULE_DIR$/../target"/>
+    </content>
+    <orderEntry type="inheritedJdk"/>
+    <orderEntry type="sourceFolder" forTests="false"/>
+    <orderEntry type="library" name="SBT: au.com.dius:pact-jvm-consumer_2.11:3.2.12" level="project"/>
+    <orderEntry type="library" name="SBT: org.springframework:spring-test:4.3.2.RELEASE" level="project"/>
+    <orderEntry type="library" name="SBT: org.scala-lang.modules:scala-xml_2.11:1.0.4" level="project"/>
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-compiler:2.11.8" level="project"/>
+    <orderEntry type="library" name="SBT: org.scala-lang.modules:scala-parser-combinators_2.11:1.0.4" level="project"/>
+    <orderEntry type="library" name="SBT: commons-lang:commons-lang:2.4" level="project"/>
+    <orderEntry type="library" name="SBT: org.springframework:spring-expression:4.3.2.RELEASE" level="project"/>
+    <orderEntry type="library" name="SBT: au.com.dius:pact-jvm-model_2.11:3.2.12" level="project"/>
+    <orderEntry type="library" name="SBT: net.sourceforge.nekohtml:nekohtml:1.9.16" level="project"/>
+    <orderEntry type="library" name="SBT: org.springframework:spring-context:4.3.2.RELEASE" level="project"/>
+    <orderEntry type="library" name="SBT: org.json:json:20160212" level="project"/>
+    <orderEntry type="library" name="SBT: org.slf4j:slf4j-api:1.7.21" level="project"/>
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-annotations:2.8.0" level="project"/>
+    <orderEntry type="library" name="SBT: com.typesafe.scala-logging:scala-logging_2.11:3.4.0" level="project"/>
+    <orderEntry type="library" name="SBT: org.springframework:spring-beans:4.3.2.RELEASE" level="project"/>
+    <orderEntry type="library" name="SBT: com.google.guava:guava:19.0" level="project"/>
+    <orderEntry type="library" name="SBT: io.netty:netty:3.10.0.Final" level="project"/>
+    <orderEntry type="library" name="SBT: xml-resolver:xml-resolver:1.2" level="project"/>
+    <orderEntry type="library" name="SBT: xml-apis:xml-apis:1.3.04" level="project"/>
+    <orderEntry type="library" name="SBT: org.springframework:spring-core:4.3.2.RELEASE" level="project"/>
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-databind:2.8.1" level="project"/>
+    <orderEntry type="library" name="SBT: org.objenesis:objenesis:1.0" level="project"/>
+    <orderEntry type="library" name="SBT: net.databinder.dispatch:dispatch-core_2.11:0.11.3" level="project"/>
+    <orderEntry type="library" name="SBT: com.github.zafarkhaja:java-semver:0.9.0" level="project"/>
+    <orderEntry type="library" name="SBT: commons-logging:commons-logging:1.2" level="project"/>
+    <orderEntry type="library" name="SBT: io.netty:netty-codec-http:4.0.24.Final" level="project"/>
+    <orderEntry type="library" name="SBT: org.skyscreamer:jsonassert:1.2.3" level="project"/>
+    <orderEntry type="library" name="SBT: junit:junit:4.12" level="project"/>
+    <orderEntry type="library" name="SBT: org.codehaus.groovy:groovy-all:2.4.7" level="project"/>
+    <orderEntry type="library" name="SBT: org.mockito:mockito-core:1.9.5" level="project"/>
+    <orderEntry type="library" name="SBT: org.springframework:spring-aop:4.3.2.RELEASE" level="project"/>
+    <orderEntry type="library" name="SBT: commons-codec:commons-codec:1.9" level="project"/>
+    <orderEntry type="library" name="SBT: net.databinder:unfiltered-netty-server_2.11:0.8.4" level="project"/>
+    <orderEntry type="library" name="SBT: org.springframework:spring-webmvc:4.3.2.RELEASE" level="project"/>
+    <orderEntry type="library" name="SBT: org.hamcrest:hamcrest-core:1.3" level="project"/>
+    <orderEntry type="library" name="SBT: org.codehaus.groovy.modules.http-builder:http-builder:0.7.1" level="project"/>
+    <orderEntry type="library" name="SBT: dk.brics.automaton:automaton:1.11-8" level="project"/>
+    <orderEntry type="library" name="SBT: org.apache.commons:commons-lang3:3.4" level="project"/>
+    <orderEntry type="library" name="SBT: io.netty:netty-common:4.0.24.Final" level="project"/>
+    <orderEntry type="library" name="SBT: org.springframework:spring-web:4.3.2.RELEASE" level="project"/>
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.8" level="project"/>
+    <orderEntry type="library" name="SBT: au.com.dius:pact-jvm-consumer-junit_2.11:3.2.12" level="project"/>
+    <orderEntry type="library" name="SBT: com.googlecode.java-diff-utils:diffutils:1.3.0" level="project"/>
+    <orderEntry type="library" name="SBT: net.databinder:unfiltered_2.11:0.8.4" level="project"/>
+    <orderEntry type="library" name="SBT: org.springframework:spring-context:4.3.2.RELEASE" level="project"/>
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-core:2.8.1" level="project"/>
+    <orderEntry type="library" name="SBT: commons-collections:commons-collections:3.2.1" level="project"/>
+    <orderEntry type="library" name="SBT: net.databinder:unfiltered-netty_2.11:0.8.4" level="project"/>
+    <orderEntry type="library" name="SBT: net.databinder:unfiltered-util_2.11:0.8.4" level="project"/>
+    <orderEntry type="library" name="SBT: xerces:xercesImpl:2.9.1" level="project"/>
+    <orderEntry type="library" name="SBT: net.sf.ezmorph:ezmorph:1.0.6" level="project"/>
+    <orderEntry type="library" name="SBT: au.com.dius:pact-jvm-model_2.11:3.2.12" level="project"/>
+    <orderEntry type="library" name="SBT: com.ning:async-http-client:1.9.11" level="project"/>
+    <orderEntry type="library" name="SBT: org.apache.httpcomponents:httpclient:4.5.2" level="project"/>
+    <orderEntry type="library" name="SBT: io.netty:netty-buffer:4.0.24.Final" level="project"/>
+    <orderEntry type="library" name="SBT: commons-beanutils:commons-beanutils:1.8.0" level="project"/>
+    <orderEntry type="library" name="SBT: javax.servlet:javax.servlet-api:3.0.1" level="project"/>
+    <orderEntry type="library" name="SBT: io.netty:netty-transport:4.0.24.Final" level="project"/>
+    <orderEntry type="library" name="SBT: junit:junit:4.12" level="project"/>
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.8" level="project"/>
+    <orderEntry type="library" name="SBT: net.sf.json-lib:json-lib:2.3" level="project"/>
+    <orderEntry type="library" name="SBT: au.com.dius:pact-jvm-matchers_2.11:3.2.12" level="project"/>
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-reflect:2.11.8" level="project"/>
+    <orderEntry type="library" name="SBT: io.netty:netty-handler:4.0.24.Final" level="project"/>
+    <orderEntry type="library" name="SBT: io.netty:netty-codec:4.0.24.Final" level="project"/>
+    <orderEntry type="library" name="SBT: org.springframework:spring-core:4.3.2.RELEASE" level="project"/>
+    <orderEntry type="library" name="SBT: com.github.mifmif:generex:1.0.1" level="project"/>
+    <orderEntry type="library" name="SBT: org.apache.httpcomponents:httpcore:4.4.4" level="project"/>
+    <orderEntry type="library" name="SBT: io.gatling:jsonpath_2.11:0.6.4" level="project"/>
+    <orderEntry type="library" name="SBT: org.scalacheck:scalacheck_2.11:1.11.3:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.scala-sbt:test-interface:1.0:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.ow2.asm:asm-tree:4.1:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: com.novocode:junit-interface:0.11:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.scalaz:scalaz-effect_2.11:7.1.0:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.specs2:specs2_2.11:2.4.2:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.ow2.asm:asm-util:4.1:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.scalaz:scalaz-core_2.11:7.1.0:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.ow2.asm:asm-analysis:4.1:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.specs2:classycle:1.4.3:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.scalaz:scalaz-concurrent_2.11:7.1.0:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.parboiled:parboiled-core:1.1.4:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.pegdown:pegdown:1.2.1:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.parboiled:parboiled-java:1.1.4:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.ow2.asm:asm:4.1:test" scope="TEST" level="project"/>
+  </component>
+</module>
